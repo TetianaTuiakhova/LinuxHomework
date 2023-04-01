@@ -1,0 +1,6 @@
+   0 touch myfirstbashscript.sh
+   1 chmod u+x myfirstbashscript.sh
+   2 USER="TETIANA"
+   3 echo "$(date) Привет, $USER! Работаю из директории:$(pwd).количеств
+   4 о процессов: $(ps -ef | wc -l)"
+   5 history > history.txt && export_file history.txt
